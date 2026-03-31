@@ -1,57 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarkent Natural Park</title>
+    <title>Природный парк Саркент</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Sarkent Natural Park</h1>
-    <p>Batken, Leilek, Kyrgyzstan</p>
+<header class="top-header">
+    <div class="logo-block">
+        <h1>Природный парк Саркент</h1>
+        <p>Баткенская область, Лейлекский район, Кыргызстан</p>
+    </div>
 </header>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#visit">Visit</a>
+    <a href="#home">Главная</a>
+    <a href="#about">О парке</a>
+    <a href="#events">Мероприятия</a>
+    <a href="#director">Директор</a>
+    <a href="#staff">Сотрудники</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#contacts">Контакты</a>
 </nav>
 
-<section id="hero">
-    <h2>Discover the Beauty of Sarkent</h2>
-</section>
-
-<section id="about">
-    <h2>About Sarkent</h2>
-    <p>
-        Sarkent Natural Park is a beautiful natural destination located in the Leilek region of Batken, Kyrgyzstan.
-        It is known for its mountains, forests, fresh air, and peaceful environment.
-    </p>
-</section>
-
-<section id="gallery">
-    <h2>Gallery</h2>
-    <div class="images">
-        <img src="images/park1.jpg" alt="Sarkent 1">
-        <img src="images/park2.jpg" alt="Sarkent 2">
-        <img src="images/park3.jpg" alt="Sarkent 3">
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h2>Саркент — место, где природа говорит сама за себя</h2>
+        <p>
+            Добро пожаловать в один из живописных уголков Кыргызстана. Здесь вас ждут горные пейзажи,
+            чистый воздух, тишина, редкая дикая природа и возможность по-настоящему почувствовать
+            красоту нетронутой природы.
+        </p>
+        <a href="#contacts" class="btn">Спланировать поездку</a>
     </div>
 </section>
 
-<section id="visit">
-    <h2>Plan Your Visit</h2>
-    <ul>
-        <li>📍 Location: Leilek, Batken</li>
-        <li>🏕️ Activities: Hiking, Camping, Photography</li>
-        <li>☀️ Best time: Spring and Summer</li>
-    </ul>
+<section id="about">
+    <h2>О парке</h2>
+    <p>
+        Природный парк Саркент расположен в Лейлекском районе Баткенской области и является одним из
+        уникальных природных мест юга Кыргызстана. Парк известен своими горами, свежим воздухом,
+        красивыми ландшафтами и богатым природным разнообразием.
+    </p>
+    <p>
+        Это место подходит для экологического туризма, отдыха на природе, знакомства с редкими видами
+        животных и наблюдения за живописными природными пейзажами. Саркент привлекает тех, кто ценит
+        спокойствие, чистоту природы и красоту диких мест.
+    </p>
+</section>
+
+<section id="events">
+    <h2>Мероприятия</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Экологические экскурсии</h3>
+            <p>Познавательные прогулки и экскурсии по природным маршрутам парка.</p>
+        </div>
+        <div class="card">
+            <h3>Школьные и студенческие визиты</h3>
+            <p>Организованные посещения для знакомства с природой, экологией и охраной окружающей среды.</p>
+        </div>
+        <div class="card">
+            <h3>Фототуры</h3>
+            <p>Поездки для любителей природы и фотографии с возможностью увидеть красивые виды парка.</p>
+        </div>
+    </div>
+</section>
+
+<section id="director">
+    <h2>Директор</h2>
+    <div class="director-box">
+        <img src="images/director.jpg" alt="Директор парка">
+        <div>
+            <h3>Имя директора</h3>
+            <p>
+                Директор природного парка Саркент отвечает за сохранение природного наследия,
+                развитие экологического туризма и организацию деятельности парка. Здесь вы можете
+                разместить краткую биографию, достижения и обращение к посетителям.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="staff">
+    <h2>Сотрудники</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="images/staff1.jpg" alt="Сотрудник 1">
+            <h3>Имя сотрудника</h3>
+            <p>Должность сотрудника</p>
+        </div>
+        <div class="card">
+            <img src="images/staff2.jpg" alt="Сотрудник 2">
+            <h3>Имя сотрудника</h3>
+            <p>Должность сотрудника</p>
+        </div>
+        <div class="card">
+            <img src="images/staff3.jpg" alt="Сотрудник 3">
+            <h3>Имя сотрудника</h3>
+            <p>Должность сотрудника</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Галерея</h2>
+    <div class="images">
+        <img src="images/park1.jpg" alt="Саркент 1">
+        <img src="images/park2.jpg" alt="Саркент 2">
+        <img src="images/park3.jpg" alt="Саркент 3">
+    </div>
+    <p class="gallery-text">Откройте для себя виды, которые запоминаются навсегда.</p>
+</section>
+
+<section id="contacts">
+    <h2>Контакты</h2>
+    <p><strong>Адрес:</strong> Баткенская область, Лейлекский район, Кыргызстан</p>
+    <p><strong>Телефон:</strong> +996 XXX XXX XXX</p>
+    <p><strong>Email:</strong> info@sarkentpark.com</p>
+    <p><strong>Часы работы:</strong> Пн–Пт, 09:00–18:00</p>
 </section>
 
 <footer>
-    <p>© 2026 Sarkent Natural Park</p>
+    <p>© 2026 Природный парк Саркент. Все права защищены.</p>
 </footer>
 
 </body>
