@@ -159,9 +159,10 @@ section p {
 
 .director-box img {
     width: 320px;
-    max-width: 100%;
-    border-radius: 18px;
+    height: 420px;
     object-fit: cover;
+    border-radius: 18px;
+}
 }
 
 .director-box div {
